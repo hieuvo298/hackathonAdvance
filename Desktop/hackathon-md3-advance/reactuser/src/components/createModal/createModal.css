@@ -1,0 +1,74 @@
+.box-modal-add {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.btn-close-modal-add {
+  position: absolute;
+  top: 17.6%;
+  right: 34.5%;
+  font-size: 35px;
+  color: black;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.box-modal-add .table-add-student {
+  width: 470px;
+  height: 520px;
+  background-color: #ffff;
+  border-radius: 15px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.box-modal-add .table-add-student .header-table-modal-add-student {
+  font-size: 25px;
+}
+
+.box-modal-add .table-add-student .add-name-student {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-size: 15px;
+}
+
+.box-modal-add .table-add-student .add-name-student input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.box-modal-add .table-add-student .add-description-student {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-size: 15px;
+}
+
+.box-modal-add .table-add-student .add-description-student textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 200px;
+  border-radius: 8px;
+}
+
+.box-modal-add .table-add-student .btn-add-student button {
+  width: 100%;
+  padding: 14px;
+  background-color: rgb(6, 181, 6);
+  color: #ffff;
+  font-size: 15px;
+  border-radius: 8px;
+}

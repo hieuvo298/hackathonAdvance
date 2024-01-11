@@ -1,0 +1,12 @@
+.table-content{
+    margin:10px 300px;
+    border-radius: 5px;   
+}
+.edit-btn{
+    background-color: rgb(115, 223, 115);
+    color: white;
+}
+.delete-btn{
+    background-color: rgb(232, 35, 35);
+    color: white;    
+}

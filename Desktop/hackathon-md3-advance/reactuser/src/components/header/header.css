@@ -1,0 +1,17 @@
+.header-content {
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 16px 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.add-btn {
+  background-color: rgb(115, 223, 115);
+  color: white;
+  margin: 10px 300px;
+  padding: 16px 26px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
